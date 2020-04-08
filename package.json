@@ -1,0 +1,21 @@
+{
+  "name": "electron-sqlite3",
+  "description": "Set-up Electron with sqlite3",
+  "version": "1.0.0",
+  "author": "Shadrack Ankomahene",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sqlite3": "^4.0.9",
+    "unique-names-generator": "^4.2.0"
+  },
+  "devDependencies": {
+    "electron": "^5.0.6",
+    "electron-builder": "^21.0.15"
+  }
+}
