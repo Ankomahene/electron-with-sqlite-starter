@@ -12,8 +12,35 @@
 
   <script>
     var dbHandler = require('./handledb/handledb');
-    dbHandler.handleDatabase();
+    // dbHandler.handleDatabase();
+
+
+    function login() {
+      dbHandler.login('john', 'password')
+    }
+
+    function addStudent() {
+      //adds a student in class 5
+      dbHandler.addStudent('Grief Child', '2020-12-12', 'F', 2)
+    }
+
+    function viewAllStudents(){
+      dbHandler.viewAllStudents()
+    }
+
   </script>
+
+
+  <button onclick="login()">
+    Login
+  </button>
+  <button onclick="addStudent()">
+    Add Student
+  </button>
+  <button onclick="viewAllStudents()">
+    View students
+  </button>
+
 </body>
 
 </html>
