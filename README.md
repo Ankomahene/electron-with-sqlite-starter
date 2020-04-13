@@ -4,7 +4,7 @@ Setup for an Electron app  SQLite3 support.
 
 ```
 git clone ...
-cd electron-boilerplate-sqlite
+cd electron-with-sqlite-starter
 npm install
 npm start
 ```
